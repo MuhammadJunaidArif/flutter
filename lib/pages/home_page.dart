@@ -1,6 +1,7 @@
 // ignore_for_file: avoid_unnecessary_containers
 
 import 'package:flutter/material.dart';
+import 'package:flutter_catalog/widgets/drawer.dart';
 
 // ignore: use_key_in_widget_constructors
 class Homepage extends StatelessWidget {
@@ -18,7 +19,9 @@ class Homepage extends StatelessWidget {
         //string inter pulation  welcom..... $days...
       )),
       // ignore: prefer_const_constructors
-      drawer: Drawer(),
+      drawer: MyDrawer(
+
+      ),
     );
   }
 }
